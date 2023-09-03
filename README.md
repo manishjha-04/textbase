@@ -1,15 +1,13 @@
 # Midnight Cravings Chatbot
 
-![Chatbot Image](chatbot-image.png)
+
 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
-- [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Example Scenarios](#example-scenarios)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
