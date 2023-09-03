@@ -62,7 +62,7 @@ User: "I have spinach, tofu, and garlic. What can I cook?"
 Chatbot: "How about a healthy Spinach and Tofu Stir-Fry? Here's the recipe..."
 
 ### Conversation 2: Requesting a Specific Dish Recipe
-User: "Give me a recipe for chicken curry."
+User: "Give me a recipe for chicken curry." 
 Chatbot: "Sure thing! Here's a delicious Chicken Curry recipe for you..."
 
 ### Conversation 3: Generating a Diet Plan
