@@ -1,79 +1,77 @@
-<p align="center">
-  <picture>
-    <img alt="Textbase python library" src="assets/logo.svg" width="352" height="59" style="max-width: 100%;">
-  </picture>
-  <br/>
-  <br/>
-</p>
+# Midnight Cravings Chatbot
 
-<p align="center">
-    <a href="https://docs.textbase.ai">
-        <img alt="Documentation" src="https://img.shields.io/website/http/huggingface.co/docs/transformers/index.svg?down_color=red&down_message=offline&up_message=online">
-    </a>
-</p>
+![Chatbot Image](chatbot-image.png)
 
-<h3 align="center">
-    <p>✨ Textbase is a framework for building chatbots using NLP and ML. ✨</p>
-</h3>
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Example Scenarios](#example-scenarios)
+- [Contributing](#contributing)
+- [License](#license)
 
-<h3 align="center">
-    <a href="https://textbase.ai"><img src="assets/banner.png"></a>
-</h3>
+## Introduction
 
-Just implement the `on_message` function in `main.py` and Textbase will take care of the rest :)
+The Midnight Cravings Chatbot is an AI-powered assistant designed to help you fulfill your midnight cravings, discover delicious recipes, and even create customized diet plans for gym enthusiasts. Whether you have a specific dish in mind, want to cook with the ingredients you have on hand, or need guidance on a healthy diet plan, this chatbot has you covered!
 
-Since it is just Python you can use whatever models, libraries, vector databases and APIs you want.
+## Features
 
-Coming soon:
-- [x] [PyPI package](https://pypi.org/project/textbase-client/)
-- [x] Easy web deployment via [textbase deploy](/docs/deployment/deploy-from-cli)
-- [ ] SMS integration
-- [ ] Native integration of other models (Claude, Llama, ...)
+1. **Recipe Recommendation**
+   - Ask the chatbot for recipe suggestions based on the ingredients you have.
+   - Specify a cuisine or dietary preference, and the chatbot will provide relevant recipes.
 
-![Demo Deploy GIF](assets/textbase-deploy.gif)
+2. **Specific Dish Recipe**
+   - If you have a particular dish in mind, simply ask for the recipe, and the chatbot will provide step-by-step instructions.
 
-## Installation
-Make sure you have `python version >=3.9.0`, it's always good to follow the [docs](https://docs.textbase.ai/get-started/installation) 👈🏻
-### 1. Through pip
-```bash
-pip install textbase-client
-```
+3. **Diet Plan Generation**
+   - Gym rats and health-conscious individuals can request a personalized diet plan tailored to their goals, dietary restrictions, and preferences.
 
-### 2. Local installation
-Clone the repository and install the dependencies using [Poetry](https://python-poetry.org/) (you might have to [install Poetry](https://python-poetry.org/docs/#installation) first).
+4. **Interactive Conversations**
+   - Engage in natural language conversations with the chatbot to refine your recipe choices or diet plans.
 
-For proper details see [here]()
-
-```bash
-git clone https://github.com/cofactoryai/textbase
-cd textbase
-poetry shell
-poetry install
-```
-
-## Start development server
-
-> If you're using the default template, **remember to set the OpenAI API key** in `main.py`.
-
-Run the following command:
-- if installed locally
-    ```bash
-    poetry run python textbase/textbase_cli.py test
-    ```
-- if installed through pip
-    ```bash
-    textbase-client test
-    ```
-Response:
-```bash
-Path to the main.py file: examples/openai-bot/main.py # You can create a main.py by yourself and add that path here. NOTE: The path should not be in quotes
-```
-Now go to the link in blue color which is shown on the CLI and you will be able to chat with your bot!
-![Local UI](assets/test_command.png)
-
-### `Other commands have been mentioned in the documentaion website.` [Have a look](https://docs.textbase.ai/usage) 😃!
+5. **Midnight Cravings Mode**
+   - Activate this mode when you're unsure what to cook late at night. The chatbot will suggest quick and easy recipes perfect for satisfying your midnight cravings.
 
 
-## Contributions
 
-Contributions are welcome! Please open an issue or create a pull request.
+## Usage
+
+The chatbot is designed to be user-friendly and intuitive. Just start a conversation and let it know what you need. Here are some common usage scenarios:
+
+### Scenario 1: Finding a Recipe Based on Available Ingredients
+1. User: "I have chicken, broccoli, and rice. What can I cook?"
+2. Chatbot: "How about a delicious Chicken Broccoli Stir-Fry? Here's the recipe..."
+
+### Scenario 2: Requesting a Specific Dish Recipe
+1. User: "Give me a recipe for spaghetti carbonara."
+2. Chatbot: "Sure! Here's a classic Spaghetti Carbonara recipe..."
+
+### Scenario 3: Generating a Diet Plan
+1. User: "Create a diet plan for a vegetarian with a goal to lose weight."
+2. Chatbot: "Certainly! Here's a customized vegetarian weight loss diet plan for you..."
+
+### Scenario 4: Satisfying Midnight Cravings
+1. User: "I'm hungry and it's late. What can I make quickly?"
+2. Chatbot: "Late-night snack cravings? Try our 15-minute Microwave Mug Cake recipe!"
+
+## Example Scenarios
+
+Here are some sample conversations with the Midnight Cravings Chatbot:
+
+### Conversation 1: Finding a Recipe Based on Ingredients
+User: "I have spinach, tofu, and garlic. What can I cook?"
+Chatbot: "How about a healthy Spinach and Tofu Stir-Fry? Here's the recipe..."
+
+### Conversation 2: Requesting a Specific Dish Recipe
+User: "Give me a recipe for chicken curry."
+Chatbot: "Sure thing! Here's a delicious Chicken Curry recipe for you..."
+
+### Conversation 3: Generating a Diet Plan
+User: "Create a diet plan for a high-protein diet."
+Chatbot: "Certainly! Here's a high-protein diet plan tailored to your needs..."
+
+### Conversation 4: Satisfying Midnight Cravings
+User: "I can't sleep, and I'm craving something sweet."
+Chatbot: "No problem! How about making some warm chocolate chip cookies? Here's the recipe..."
+
